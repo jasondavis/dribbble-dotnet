@@ -46,11 +46,11 @@ Learn about the Dribbble API at http://dribbble.com/api
 
 == Credits 
 
-  * Hammock is a REST library for .NET that greatly simplifies consuming and wrapping RESTful services.
-    http://hammock.codeplex.com
+Hammock is a REST library for .NET that greatly simplifies consuming and wrapping RESTful services.
+http://hammock.codeplex.com
 
-  * Json.NET
-    http://json.codeplex.com
+Json.NET
+http://json.codeplex.com
 
 
  
