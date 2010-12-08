@@ -19,9 +19,9 @@
             Assert.IsNotNull(player.CreatedAt);
             Assert.IsNull(player.DraftedByPlayerId); // no-one drafted Dan
 
-            Assert.AreEqual("http://dribbble.com/players/simplebits", player.Url);
+            Assert.AreEqual("http://dribbble.com/simplebits", player.Url);
             Assert.AreEqual("http://simplebits.com", player.WebSiteUrl);
-            Assert.AreEqual("http://dribbble.com/system/users/1/avatars/thumb/dancederholm-peek.jpg?1261060245", player.AvatarUrl);
+            Assert.AreEqual("http://dribbble.com/system/users/1/avatars/original/dancederholm-peek.jpg?1261060245", player.AvatarUrl);
 
             Assert.GreaterOrEqual(player.ShotsCount, 0);
 
