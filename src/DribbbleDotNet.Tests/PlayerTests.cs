@@ -21,7 +21,7 @@
 
             Assert.AreEqual("http://dribbble.com/simplebits", player.Url);
             Assert.AreEqual("http://simplebits.com", player.WebSiteUrl);
-            Assert.AreEqual("http://dribbble.com/system/users/1/avatars/original/dancederholm-peek.jpg?1261060245", player.AvatarUrl);
+            Assert.That(player.AvatarUrl.StartsWith("http://dribbble.s3.amazonaws.com/users/1/avatars/original/dancederholm-peek.jpg"));
 
             Assert.GreaterOrEqual(player.ShotsCount, 0);
 
